@@ -25,7 +25,7 @@ export default class index extends Component {
 
     componentDidMount() {
 
-        axios.get(`http://localhost:5000/api/books`)
+        axios.get(`${process.env.PORT}/api/books`)
             .then(res => {
                 this.setState({
 
