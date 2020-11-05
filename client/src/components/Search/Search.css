@@ -1,0 +1,48 @@
+.title_div{
+    box-sizing: border-box;
+    border: 2px black solid;
+    text-align: center;
+
+    
+}
+.container{
+    padding: 20px;
+}
+
+.title_text{
+    font-size: 16px;
+}
+.search_div{
+    box-sizing: border-box;
+    border: 2px black solid;
+
+    
+}
+.search_input{
+    width:80%;
+}
+
+.results_div{
+    box-sizing: border-box;
+    border: 2px black solid;
+    padding: 10px;
+}
+
+.book_div{
+    box-sizing: border-box;
+    border: 2px black solid;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.description{
+    padding: 10px;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
